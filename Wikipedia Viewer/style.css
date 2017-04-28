@@ -1,0 +1,121 @@
+html {
+    overflow-y: scroll; 
+}
+
+body {
+    color: #FFFFFF;
+    background-color: white;
+    text-shadow: 2px 2px #000000;
+    font-family: serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#container {
+    height: calc(100% - 40px);
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+#wikiLogo {
+    width: 200px;
+    height: 200px;
+    
+    padding-top: 50px;
+}
+
+#searchBar {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+input {
+    width: 400px;
+    height: 20px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #757575;
+}
+
+input:focus {
+    outline: #757575;
+    box-shadow: 0px 0px 4px #757575;
+}
+
+#buttons{
+    width: 405px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    background-color: #F2F2F2;
+    color: #757575;
+    border: 1px solid #F2F2F2;
+    padding: 12px 16px;
+    width: 126px;
+}
+
+button:hover {
+    color: #151515;
+    border: 1px solid #757575;
+    cursor: pointer;
+}
+
+#randomButton {
+    margin-left: 50px;
+}
+
+#searchButton {
+    margin-right: 50px;
+}
+
+#results {
+    height: auto;
+    width: 800px;
+    color: #757575;
+    text-shadow: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.result {
+    height: 75px;
+    width: 100%;
+    background-color: #F2F2F2;
+    text-align: left;
+    
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    transition: .25s;
+    animation-name: fadein;
+    animation-duration: 1s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.result:hover {
+    color: #151515;
+    transform: translate(-15px);
+}

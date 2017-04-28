@@ -1,0 +1,5 @@
+Fix stuttering when moving cursor over the 15 right-most pixels that will animate out of the way.
+
+Function - Add/Remove channels.
+
+Optimise code.

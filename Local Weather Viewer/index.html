@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">  
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Weather Viewer App</title>
+        
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        
+        <!-- Font Awesome -->
+        <script src="https://use.fontawesome.com/b8f9532c47.js"></script>
+
+        
+        <link rel="stylesheet" href="style.css">
+        <script src="javascript.js"></script>
+    </head>
+    
+    <body>
+        <div id="container">
+            
+            <div id="weatherPanel">
+                
+                <div id="coordinates">
+                    <span id="latitude"></span> <br />
+                    <span id="longitude"></span>
+                </div>
+                
+                <div id="location">
+                    <span id="locationText">&nbsp;</span>
+                </div>
+                    
+                <div id="temperature">
+                    <span id="tempText">0&deg;</span><span id="tempUnit"><a href="#" id="unitText">C</a></span>
+                </div>
+                
+                <div id="description">
+                    <span id="descText">&nbsp;</span>
+                </div>
+
+                <div id="iconDiv" class="iconFiller">
+                </div>
+                
+                    <a href="#" id="moreButton" class="fa fa-angle-double-down"></a>
+                
+                <div id="other">
+                    <table width="400">
+                        <tr>
+                            <th>WindSpeed</th>
+                            <th>WindDeg</th>
+                            <th>Humidity</th>
+                        </tr>
+                        <tr>
+                            <td id="windSpd">km/h</td>
+                            <td id="windDeg">&deg;</td>
+                            <td id="humidity">%</td>
+                        </tr>
+                        <tr>
+                            <th>Pressure</th>
+                            <th>Sunrise</th>
+                            <th>Sunset</th>
+                        </tr>
+                        <tr>
+                            <td id="pressure">hPa</td>
+                            <td id="sunrise">AM</td>
+                            <td id="sunset">PM</td>
+                        </tr>
+                    </table>
+                </div>
+                
+            </div>
+        </div>    
+    
+        <footer>
+        <span>Alexander Riseley 2017 | alexander.riseley@gmail.com</span>
+        <br />
+            <span>Made for <a href="https://freecodecamp.com">freeCodeCamp</a> with <a href="https://openweathermap.org">OpenWeatherMap</a>.
+    </footer>
+        
+        
+          
+    </body>
+</html>

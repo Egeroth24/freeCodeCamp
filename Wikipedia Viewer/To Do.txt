@@ -1,0 +1,5 @@
+Functionality
+	Display a list of auto-fill results, either in-line or as a dropdown menu.
+
+Style
+	Animate results sliding down from top of results div to their respective (static) poistions.

@@ -1,0 +1,5 @@
+Fix Forismatic API failing when using Chrome.
+
+Choose a better colour pallete.
+
+Center justify quote text so the quotation marks are equal.

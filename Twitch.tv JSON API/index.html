@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">  
+        <title>Twitch JSON API</title>
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        
+        <link rel="stylesheet" href="style.css">
+</head>  
+
+<body>
+    <div id="container">
+        <div id="panel">
+            <div id="twitchTitle">
+            </div>
+            
+            <span id="streamersTitle">Streamers</span>
+                  
+            <div id="search">
+                <div class="searchIcon"></div>
+                
+                <input id="input" type="text">
+                
+            </div>
+            
+            <div id="headers">
+                <a href="#" class="header selectedHeader" id="headerAll" onclick="headerSelect('result')">All</a>
+                
+                <a href="#" class="header unselectedHeader" id="headerOnline" onclick="headerSelect('online')">Online</a>
+
+                <a href="#" class="header unselectedHeader" id="headerOffline" onclick="headerSelect('offline')">Offline</a>
+            </div>
+            
+            <div id="results"> 
+            </div>
+    </div>
+
+</body>
+    <script src="javascript.js"></script>
+</html>

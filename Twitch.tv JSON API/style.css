@@ -1,0 +1,188 @@
+/* Twitch Purple: #6441A5 */
+html {
+    margin-left: calc(100vw - 100%); /* Prevents scrollbar moving page: https://aykevl.nl/2014/09/fix-jumping-scrollbar */
+}
+
+body {
+    color: #FFFFFF;
+    background-color: #17141F;
+    font-family: 'Gill Sans MT';
+    margin-top: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    font-size: 14px;
+}
+
+#container {
+    height: calc(100vh - 40px);
+    position: relative;
+}
+
+#panel {
+    width: 400px;
+    height: auto;
+    min-height: inherit;
+    background-color: #17141F;
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    transform: translate(-50%, 0);
+    padding-bottom: 20px;
+}
+
+#twitchTitle {
+    background-image: url("http://i.imgur.com/iQ9EIw2.png");
+    height: 100px; 
+    width: 400px;
+}
+
+#streamersTitle {
+    height: 40px;
+    font-size: 32px;
+    display: block;
+    text-align: center;
+    background-color: #6441A5;
+}
+
+#search {
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    
+    background-color: #17141F;
+    color: white;
+}
+
+/* https://css-tricks.com/examples/ShapesOfCSS/*/
+.searchIcon {
+    font-size: 40px; /* This controls the size. */
+    display: inline-block;
+    width: 0.25em;
+    height: 0.25em;
+    border: 0.08em solid #6441A5;
+    position: absolute;
+    top: 14px;
+    left: 42px;
+    border-radius: 0.35em;
+}
+
+.searchIcon::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: -0.15em;
+    bottom: -0.1em;
+    border-width: 0;
+    border-radius: 5px;
+    background: #6441A5;
+    width: 0.2em;
+    height: 0.08em;
+    transform: rotate(45deg);
+}
+
+#input {
+    width: 80%;
+    height: 20px;
+    font-size: 16px;
+    text-align: center;
+    border: 2px solid #6441A5;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+input:focus {
+    outline: #6441A5;
+    box-shadow: 0px 0px 4px #6441A5;
+}
+
+#headers {
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    border: 2px solid #6441A5;
+}
+
+.header {
+    width: 135px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+    background-color: white;
+    color: #6441A5;
+}
+
+.selectedHeader {
+    background-color: #6441A5;
+    color: white;
+}
+
+.selectedHeader:hover {
+    background-color: #7550BA;
+}
+
+
+.unselectedHeader:hover {
+    background-color: #7550BA;
+    color: white;
+}
+
+#headerOnline {
+    border-left: 2px solid #6441A5;
+    border-right: 2px solid #6441A5;
+}
+
+.result {
+    max-height: 100px;
+    text-decoration: none;
+    text-align: left;
+    margin-top: 8px;
+    display: flex;
+    background-color: white;
+    
+    position: relative;
+    transition: .25s;
+    overflow: hidden;
+}
+
+.result:hover {
+    transform: translate(-15px);
+}
+
+.result p {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.online {
+    background-color: #6441A5;
+}
+
+.online .text {
+    color: white;
+}
+
+.online:hover {
+    background-color: #7550BA;
+}
+
+.image {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 10px;
+    
+}
+
+.text {
+    color: #6441A5;
+}
