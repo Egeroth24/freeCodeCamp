@@ -1,3 +1,5 @@
+Transition to Dark Sky API (OpenWeatherMap)
+	Github only supports HTTPS, OpenWeatherMap only supports HTTP responses 	- OpenWeatherMap cannot currently be hosted on Github.
+
 Smooth background transition
 Add cloud %
-Optimise Code.

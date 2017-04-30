@@ -92,6 +92,7 @@ function updateLocalWeather() {
         document.getElementById("tempText").innerHTML = tempC + "&deg;";
         document.getElementById("locationText").innerHTML = location + ", " + locationCountry;
         document.getElementById("descText").innerHTML = description;
+        document.getElementById("httpNote").innerHTML = "";
         document.getElementById("windSpd").innerHTML = Math.round(windSpeed * 3.6) + " km/h";
         document.getElementById("windDeg").innerHTML = windDeg + "&deg;";
         document.getElementById("humidity").innerHTML = humidity + "%";
