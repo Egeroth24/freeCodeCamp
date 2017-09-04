@@ -1,0 +1,65 @@
+Case 0/Top Left
+	Horizontal ([1, 1, 1, x, x, x, x, x, x])
+	0, 1, 2
+	Diagonal ([1, x, x, x, 1, x, x, x, 1])
+	0, 4, 8
+	Vertical
+	0, 3, 6
+
+Case 1/Top Middle
+	Horizontal ([1, 1, 1, x, x, x, x, x, x])
+	0, 1, 2
+	Vertical ([x, 1, x, x, 1, x, x, 1, x])
+	1, 4, 7
+
+Case 2/Top Right
+	Horizontal ([1, 1, 1, x, x, x, x, x, x])
+	0, 1, 2
+	Diagonal ([x, x, 1, x, 1, x, 1, x, x])
+	2, 4, 6
+	Vertical ([x, x, 1, x, x, 1, x, x, 1])
+	2, 5, 8
+
+Case 3/Middle Left
+	Horizontal ([x, x, x, 1, 1, 1, x, x, x])
+	3, 4, 5
+	Vertical ([x, x, 1, x, x, 1, x, 1])
+	2, 5, 8
+
+Case 4/Middle Middle
+	Horizontal ([x, x, x, 1, 1, 1, x, x, x])
+	3, 4, 5
+	Diagonal \ ([1, x, x, x, 1, x, x, x, 1])
+	0, 4, 8
+	Diagonal / ([x, x, 1, x, 1 , x, 1, x, x])
+	2, 4, 6
+	Vertical ([x, 1, x, x, 1, x, x, 1, x])
+	1, 4, 7
+
+Case 5/Middle Right
+	Horizontal ([x, x, x, 1, 1, 1, x, x, x])
+	3, 4, 5
+	Vertical ([x, x, 1, x, x, 1, x, x, 1])
+	2, 5, 8
+
+Case 6/Bottom Left
+	Horizontal ([x, x, x, x, x, x, 1, 1, 1])
+	6, 7, 8
+	Diagonal ([x, x, 1, x, 1, x, 1, x, x])
+	2, 4, 6
+	Vertical ([1, x, x, 1, x, x, 1, x, x])
+	0, 3, 6
+
+Case 7/Bottom Middle
+	Horizontal ([x, x, x, x, x, x, 1, 1, 1])
+	6, 7, 8
+	Vertical ([x, 1, x, x, 1, x, x, 1, x])
+	1, 4, 7
+
+Case 8/Bottom Right
+	Horizontal ([x, x, x, x, x, x, 1, 1, 1])
+	6, 7, 8
+	Diagonal ([1, x, x, x, 1, x, x, x, 1])
+	0, 4, 8
+	Vertical ([x, x, 1, x, x, 1, x, x, 1])
+	2, 5, 8

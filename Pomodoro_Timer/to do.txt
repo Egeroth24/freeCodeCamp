@@ -1,0 +1,1 @@
+Add "I'm in the zone" option that counts up and doesn't interrupt the user until they're ready for a break.

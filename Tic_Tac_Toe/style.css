@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #DDD;
+    background-color: #1D1F21;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid {
+    height: 300px;
+    width: 300px;
+    outline: 2px solid #1D1F21;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    user-select: none;
+}
+
+#playersSelect, #pieceSelect, #gameOver, #difficultySelect {
+    position: absolute;
+    margin-top: 100px;
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    background-color: black;
+    opacity: .8;
+    transition: opacity .5s linear;
+}
+
+#pieceSelect, #gameOver, #difficultySelect {
+    visibility: hidden;
+}
+
+#playersSelect p, #pieceSelect p, #difficultySelect p {
+    font-size: 18px;
+    margin: 10px;
+}
+
+#gameOver p {
+    margin: 0;
+    font-size: 28px;
+    line-height: 100px;
+}
+
+.playersSelectButton, .pieceSelectButton, .difficultySelectButton {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    opacity: .8;
+    transition: opacity .2s linear;
+}
+
+.difficultySelectButton {
+    font-size: 24px;
+    height: 40px;
+    line-height: 40px;
+    width: 80px;
+}
+
+.hardDifficultyButton {
+    opacity: .5
+}
+
+.playersSelectButton:hover, .pieceSelectButton:hover, .difficultySelectButton:hover {
+    opacity: 1;
+    transition: opacity .2s linear;
+}
+
+.hardDifficultyButton:hover {
+    opacity: .5;
+}
+
+#comingSoon {
+    position: absolute;
+    visibility: hidden;
+    font-size: 22px;
+    line-height: 22px;
+    width: 80px;
+    right: 15px;
+    bottom: -24px;
+}
+
+.hardDifficultyButton:hover #comingSoon {
+    visibility: visible;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 75px;
+    color: rgba(221, 221, 221, 0.8);
+    outline: 2px solid #DDD;
+    cursor: pointer;
+}
+
+.xGhost::before {
+    content: "X";
+    opacity: 0.5
+}
+
+.oGhost::before {
+    content: "O";
+    opacity: 0.5;
+}
+
+#scoreboard {
+    visibility: hidden;
+    position: absolute; 
+    margin: 0 auto; /* This positioning is required to center div in Firefox, I don't know why yet. */ 
+    left: 0;        /* */
+    right: 0;       /* */ 
+    margin-top: 175px;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .5s linear;
+}
+
+.scoreboardItem {
+    display: inline-block;
+    margin: 10px;
+}
+
+.scoreboardItem p {
+    width: 80px;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.scoreboardItem div {
+    font-size: 24px;
+}
+
+#optionsGear {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 24px;
+    cursor: pointer;
+}

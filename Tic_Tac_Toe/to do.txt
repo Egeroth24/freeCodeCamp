@@ -1,0 +1,3 @@
+Implement "Hard" impossible to beat Minimax algorithm.
+
+Improve gear button with options menu rather than just restarting.

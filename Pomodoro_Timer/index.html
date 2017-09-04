@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Pomodoro Timer</title>
+        <script src="https://use.fontawesome.com/dd3ac5678f.js"></script>
+        <link rel="stylesheet" href="./style.css">
+</head>  
+<body>
+    <div id="container">
+        <div id="text">
+            <h1>Pomodoro Timer</h1>
+            <p id="info">The Pomodoro Technique is a time management method typically consisting of 25-minute "pomodoro" sessions of work followed by 5 minute breaks. Every fouth pomodoro is followed by a longer 30 minute break. You can customise the length of each pomodoro. <span id="dismiss" onclick="dismiss();">Dismiss</span></p>
+        </div>
+        <div id="lengths">
+            <div id="pomodoro">
+                <h3>Pomodoro</h3>
+                <span id="pomodoroMinus" onclick="updateLengths(this.id);">-</span>
+                <span id="pomodoroLength">25</span>
+                <span id="pomodoroPlus" onclick="updateLengths(this.id);">+</span>
+            </div>
+            <div id="break">
+                <h3>Break</h3>
+                <span id="breakMinus" onclick="updateLengths(this.id);">-</span>
+                <span id="breakLength">5</span>
+                <span id="breakPlus" onclick="updateLengths(this.id);">+</span>
+            </div>
+            <div id="longBreak">
+                <h3>Long Break</h3>
+                <span id="longBreakMinus" onclick="updateLengths(this.id);">-</span>
+                <span id="longBreakLength">30</span>
+                <span id="longBreakPlus" onclick="updateLengths(this.id);">+</span>
+            </div>
+        </div>
+        <div id="task">
+            <p id="setTaskText">Set a task to complete:</p>
+            <input id="setTaskInput" type="text" size="40" onkeydown="if (event.keyCode === 13) { task();}">
+            <div id="currentTask" class="invisible" onclick="task();"></div>
+            <div id="taskCover"></div>
+        </div>
+        <div id="timer" onclick="pomodoroTimer();">
+            <span id="mute" class="fa fa-volume-up" onclick="mute();"></span>
+            <div id="progress"></div>
+            <div id="progressCover"></div>
+            <h1 id="timerDisplay"></h1>
+            <h1 id="countdown"><span>25</span>:<span>00</span></h1>
+        </div>
+        <div id="history">
+            <h2 onclick="toggleHistory();">History <span id="historyAngleArrow" class="fa fa-angle-double-down"></span> </h2>
+            <div id="historyTableDiv" class="collapse">
+                <table id="historyTable">
+                <tr>
+                    <th id="taskCountHeader">#</th>
+                    <th id="taskHeader">Task</th>
+                    <th id="durationHeader">Duration</th>
+                    <th id="timeHeader">Time</th>
+                </tr>
+            </table>
+            </div>
+        </div>
+    </div>
+    <script src="./javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Tic Tac Toe</title>
+        <script src="https://use.fontawesome.com/dd3ac5678f.js"></script>
+        <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="grid">
+        <div id="playersSelect">
+            <p>One or two players?</p>
+            <div class="playersSelectButton" onclick="playersSelect(1)">1</div>
+            <div class="playersSelectButton" onclick="playersSelect(2)">2</div>
+        </div>
+        <div id="pieceSelect" style="opacity: 0">
+            <p id="pieceSelectMessage">Player 1: choose your piece:</p>
+            <div class="pieceSelectButton" onclick="pieceSelect(1)">X</div>
+            <div class="pieceSelectButton" onclick="pieceSelect(2)">O</div>
+        </div>
+        <div id="difficultySelect" style="opacity: 0">
+            <p id="difficultySelectMessage">Select Difficulty:</p>
+            <div class="difficultySelectButton" onclick="difficultySelect('easy')">Easy</div>
+            <div class="difficultySelectButton" onclick="difficultySelect('medium')">Medium</div>
+            <div class="difficultySelectButton hardDifficultyButton">Hard<div id="comingSoon">Coming Soon</div></div>
+        </div>
+        <div id="gameOver" style="opacity: 0">
+            <p id="gameOverMessage"></p>
+        </div>
+        <div id="0" class="cell" onclick="playerTurn(this.id)" onmouseover="showGhostPiece(this.id)" onmouseout="hideGhostPiece(this.id)"></div>
+        <div id="1" class="cell" onclick="playerTurn(this.id)" onmouseover="showGhostPiece(this.id)" onmouseout="hideGhostPiece(this.id)"></div>
+        <div id="2" class="cell" onclick="playerTurn(this.id)" onmouseover="showGhostPiece(this.id)" onmouseout="hideGhostPiece(this.id)"></div>
+        <div id="3" class="cell" onclick="playerTurn(this.id)" onmouseover="showGhostPiece(this.id)" onmouseout="hideGhostPiece(this.id)"></div>
+        <div id="4" class="cell" onclick="playerTurn(this.id)" onmouseover="showGhostPiece(this.id)" onmouseout="hideGhostPiece(this.id)"></div>
+        <div id="5" class="cell" onclick="playerTurn(this.id)" onmouseover="showGhostPiece(this.id)" onmouseout="hideGhostPiece(this.id)"></div>
+        <div id="6" class="cell" onclick="playerTurn(this.id)" onmouseover="showGhostPiece(this.id)" onmouseout="hideGhostPiece(this.id)"></div>
+        <div id="7" class="cell" onclick="playerTurn(this.id)" onmouseover="showGhostPiece(this.id)" onmouseout="hideGhostPiece(this.id)"></div>
+        <div id="8" class="cell" onclick="playerTurn(this.id)" onmouseover="showGhostPiece(this.id)" onmouseout="hideGhostPiece(this.id)"></div>
+    </div>
+    <div id="scoreboard" style="opacity: 0">
+        <div id="playerOneScore" class="scoreboardItem">
+            <p id="playerOneScoreText">Player 1</p>
+            <div id="playerOneWins">0</div>
+        </div>
+        <div id="playerTwoScore" class="scoreboardItem">
+            <p id="playerTwoScoreText">Player 2</p>
+            <div id="playerTwoWins">0</div>
+        </div>
+        <span id="optionsGear" class="fa fa-cog" onclick="toggleVisibility('playersSelect')"></span>
+    </div>
+    <script src="./javascript.js"></script>
+</body>
+</html>

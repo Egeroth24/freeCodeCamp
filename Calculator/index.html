@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        
+        <title>Simple Calculator</title>  
+        
+        <link rel="stylesheet" href="style.css">
+    </head>  
+
+    <body>
+            
+            <div id="panel">
+                <div id="display">
+                    <span id="equation"></span>
+                    <span id="output"></span>
+                </div>
+
+                <div id="keyPad">
+                    <button class="doubleWidth" onclick="keyInput('c')"> C </button>
+                    <button onclick="keyInput('/')"> / </button>
+                    <button onclick="keyInput('*')"> * </button>
+                    <button onclick="keyInput('7')"> 7 </button>
+                    <button onclick="keyInput('8')"> 8 </button>
+                    <button onclick="keyInput('9')"> 9 </button>
+                    <button onclick="keyInput('-')"> - </button>
+                    <button onclick="keyInput('4')"> 4 </button>
+                    <button onclick="keyInput('5')"> 5 </button>
+                    <button onclick="keyInput('6')"> 6 </button>
+                    <button onclick="keyInput('+')"> + </button>
+                    <button onclick="keyInput('1')"> 1 </button>
+                    <button onclick="keyInput('2')"> 2 </button>
+                    <button onclick="keyInput('3')"> 3 </button>
+                    <button class="doubleHeightRightFloat" onclick="keyInput('=')"> = </button>
+                    <button class="doubleWidth" onclick="keyInput('0')"> 0 </button>
+                    <button onclick="keyInput('.')"> . </button>
+                </div>
+            </div>
+    </body>
+    <script src="javascript.js"></script>
+</html>

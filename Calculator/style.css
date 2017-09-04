@@ -1,0 +1,156 @@
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF;
+    background-color: #101010;
+    font-family: 'Gill Sans MT', 'Calibri', Verdana, sans-serif;
+}
+
+button, #panel, #display, #output, #equation {
+    box-sizing: border-box;
+}
+
+button {
+    font-size: 24px;
+    padding: 0px;
+    margin: 4px;
+    border: 0;
+    height: 70px;
+    width: 67px;
+    float: left;
+    background-color: #0090FF;
+    color: white;
+}
+
+#container {
+    min-height: 100%;
+}
+
+#panel {
+    width: 300px;
+    height: 500px;
+    position: relative;
+    left: 50%;
+    top: 100px;
+    transform: translate(-50%, 0);
+}
+
+#display {
+    height: 100px;
+}
+
+#output {
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    background-color: #101010;
+    text-align: right;
+    height: 60px;
+    width: 100%;
+    font-size: 56px;
+    color: #00AAFF;
+    overflow: hidden;
+}
+
+#equation {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    text-align: right;
+    overflow: hidden;
+}
+
+#keyPad {
+    width: 100%;
+    
+}
+
+.doubleWidth {
+    width: 142px;
+}
+
+.doubleHeightRightFloat {
+    height: 148px;
+    float: right;
+}
+
+#point {
+    
+}
+
+.errorFlash {
+    animation: redFlash .8s;
+}
+
+@keyframes redFlash {
+    0% {
+        opacity: 1;
+        background-color: transparent;
+    } 50% {
+        opacity: .5;
+        background-color: red;
+    } 100% {
+        opacity: 1;
+        background-color: transparent;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

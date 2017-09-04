@@ -1,0 +1,3 @@
+Deal with input overflow by reducing font size wrapping text to new line.
+
+Merge window.onkeydown/press and convert keyCodes to charCodes.
