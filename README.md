@@ -16,9 +16,9 @@ Here you can find the freeCodeCamp projects I have completed.
 
 ### Advanced Front-end Development Projects
 
-[Calculator](https://Egeroth24.github.io/freeCodeCamp/Calculator)
+[Calculator](https://Egeroth24.github.io/freeCodeCamp/Calculator/)
 
-[Pomodoro Timer](https://Egeroth24.github.io/freeCodeCamp/Pomodoro_Timer)
+[Pomodoro Timer](https://Egeroth24.github.io/freeCodeCamp/Pomodoro_Timer/)
 
 [Tic Tac Toe](https://Egeroth24.github.io/freeCodeCamp/Tic_Tac_Toe)
 
