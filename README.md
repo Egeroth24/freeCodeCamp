@@ -26,8 +26,14 @@ Here you can find the freeCodeCamp projects I have completed.
 
 ### React Projects
 
-Coming Soon
+[Markdown Previewer](https://codepen.io/Egeroth/full/VMyzMN/)
+
+[Camper Leaderboard](https://codepen.io/Egeroth/full/oGqzKJ/)
+
+[Recipe Box](https://codepen.io/Egeroth/full/RjVwXq/)
+
+Game of Life *Coming Soon*
 
 ### Dynamic Web Application Projects
 
-Coming Soon
+*Coming Soon*
