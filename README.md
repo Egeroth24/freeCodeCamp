@@ -5,34 +5,36 @@ Here you can find the freeCodeCamp projects I have completed.
 
 ----
 
-### Intermediate Front-end Development Projects
-[Random Quote Machine](https://Egeroth24.github.io/freeCodeCamp/Random_Quote_Machine)
-
-[Local Weather Viewer](https://Egeroth24.github.io/freeCodeCamp/Local_Weather_Viewer)
-
-[Wikipedia Viewer](https://Egeroth24.github.io/freeCodeCamp/Wikipedia_Viewer)
-
-[Twitch.tv JSON API](https://Egeroth24.github.io/freeCodeCamp/Twitch.tv_JSON_API)
-
-### Advanced Front-end Development Projects
-
-[Calculator](https://Egeroth24.github.io/freeCodeCamp/Calculator/)
-
-[Pomodoro Timer](https://Egeroth24.github.io/freeCodeCamp/Pomodoro_Timer)
-
-[Tic Tac Toe](https://Egeroth24.github.io/freeCodeCamp/Tic_Tac_Toe)
-
-[Simon Game](https://Egeroth24.github.io/freeCodeCamp/Simon_Game)
-
 ### React Projects
 
-[Markdown Previewer](https://codepen.io/Egeroth/full/VMyzMN/)
-
-[Camper Leaderboard](https://codepen.io/Egeroth/full/oGqzKJ/)
+[Game of Life](https://codepen.io/Egeroth/full/qVgJRq/)
 
 [Recipe Box](https://codepen.io/Egeroth/full/RjVwXq/)
 
-Game of Life *Coming Soon*
+[Camper Leaderboard](https://codepen.io/Egeroth/full/oGqzKJ/)
+
+[Markdown Previewer](https://codepen.io/Egeroth/full/VMyzMN/)
+
+### Advanced Front-end Development Projects
+
+[Simon Game](https://Egeroth24.github.io/freeCodeCamp/Simon_Game)
+
+[Tic Tac Toe](https://Egeroth24.github.io/freeCodeCamp/Tic_Tac_Toe)
+
+[Pomodoro Timer](https://Egeroth24.github.io/freeCodeCamp/Pomodoro_Timer)
+
+[Calculator](https://Egeroth24.github.io/freeCodeCamp/Calculator/)
+
+### Intermediate Front-end Development Projects
+
+[Twitch.tv JSON API](https://Egeroth24.github.io/freeCodeCamp/Twitch.tv_JSON_API)
+
+[Wikipedia Viewer](https://Egeroth24.github.io/freeCodeCamp/Wikipedia_Viewer)
+
+[Local Weather Viewer](https://Egeroth24.github.io/freeCodeCamp/Local_Weather_Viewer)
+
+[Random Quote Machine](https://Egeroth24.github.io/freeCodeCamp/Random_Quote_Machine)
+
 
 ### Dynamic Web Application Projects
 
